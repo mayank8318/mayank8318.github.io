@@ -1310,9 +1310,9 @@
 /* Basic */
 
 	body {
-		background-color: #183026;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url('images/bg.jpg');
 		background-repeat: repeat, no-repeat;
+		background-color: #183026;
 		background-size: auto, cover;
 		background-position: top left, center 0;
 		background-attachment: fixed, fixed;
@@ -2046,10 +2046,10 @@
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
-		margin: 4.5em 0 0 0;
+		margin: 1em 0 0 0;
 	}
 
-		#footer:after {
+		/* #footer:after {
 			content: '';
 			display: block;
 			position: absolute;
@@ -2057,7 +2057,7 @@
 			left: 50%;
 			height: 4.5em;
 			border-left: solid 1px #fff;
-		}
+		} */
 
 		#footer a {
 			color: #fff;
@@ -2076,7 +2076,7 @@
 			border-radius: 3em;
 			border: solid 1px #fff;
 			display: inline-block;
-			margin: 0 0 3em 0;
+			margin: 0 0 1em 0;
 		}
 
 		#footer .copyright {
@@ -2252,7 +2252,7 @@
 
 			body {
 				background-color: #203936;
-				background-image: url("images/overlay.png"), url("../../images/bg-alt.jpg");
+				background-image: url("images/me.jpg");
 				background-repeat: repeat, no-repeat;
 				background-size: auto, 100% auto;
 				background-position: top left, top center;
